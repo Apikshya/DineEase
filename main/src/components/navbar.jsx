@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import logo from "../images/logo.png";
 
+
 const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-transparent z-50 ">
@@ -15,7 +16,7 @@ const Navbar = () => {
         <ul className="flex justify-around">
           <li  className="inline p-2 ">
             <Link to="/" >
-              <img src={logo} alt="logo" className="w-40   drop-shadow-md hover:drop-shadow-lg " />
+              <img src={logo} alt="logo" className="w-40 drop-shadow-md hover:drop-shadow-lg" />
             </Link>
           </li>
           <li  className="inline-block h-10 p-2 mt-10 font-semibold hover:font-bold">
@@ -24,7 +25,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="inline-block h-10 p-2 mt-10 font-semibold hover:font-bold">
-            <Link to="/ourstories" >
+            <Link to="/ourstories" >   
               Our stories
             </Link>
           </li>
