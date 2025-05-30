@@ -1,11 +1,4 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link,
-  useNavigate,
-  Outlet,
-} from "react-router-dom";
+import { BrowserRouter ,Routes ,Route ,Link ,useNavigate ,Outlet } from "react-router-dom";
 import logo from "../images/logo.png";
 
 

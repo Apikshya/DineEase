@@ -12,6 +12,10 @@ export default {
   //     animation: {
   //   'spin-slow': 'spin 1s linear infinite',
   // },
+  fontFamily: {
+        righteous: ['Righteous', 'cursive'],
+        poppins: ['poppins'],// <== This line is required
+      },
       colors:{
         purple:{
           100: "#C4A8CB",
