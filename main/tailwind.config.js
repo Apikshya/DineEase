@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      // backgroundImage: {
+      //   'conic-rainbow': 'conic-gradient(from 180deg, red, yellow, lime, aqua, blue, magenta, red)',
+      // },
+  //     animation: {
+  //   'spin-slow': 'spin 1s linear infinite',
+  // },
       colors:{
         purple:{
           100: "#C4A8CB",
